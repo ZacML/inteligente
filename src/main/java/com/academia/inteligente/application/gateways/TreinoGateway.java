@@ -1,13 +1,16 @@
 package com.academia.inteligente.application.gateways;
 
-public class TreinoGateway {
-    Aluno createAluno(Aluno aluno);
+import java.util.List;
 
-    List<Aluno> listaAlunos();
+import com.academia.inteligente.domain.Treino;
 
-    void excluirAluno(Integer id);
+public interface TreinoGateway {
+    Treino createTreino(Treino treino);
 
-    List<Aluno> excluirAlunos();
+    List<Treino> listaTreinos();
 
-    Aluno updateAlunos(Integer id, Aluno aluno);
+    void excluirTreino(Integer id);
+
+    List<Treino> excluirTreinos();
+
 }

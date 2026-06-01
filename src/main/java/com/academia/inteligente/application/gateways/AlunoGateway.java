@@ -1,5 +1,9 @@
 package com.academia.inteligente.application.gateways;
 
+import java.util.List;
+
+import com.academia.inteligente.domain.Aluno;
+
 public interface AlunoGateway {
 
     Aluno createAluno(Aluno aluno);
@@ -9,7 +13,5 @@ public interface AlunoGateway {
     void excluirAluno(Integer id);
 
     List<Aluno> excluirAlunos();
-
-    Aluno updateAlunos(Integer id, Aluno aluno);
 
 }
