@@ -1,4 +1,4 @@
-package com.academia.inteligente.application.gateways.use
+package com.academia.inteligente.application.useCases;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class InstrutorUseCase {
         return gateway.listaInstrutor();
     }
 
-    public void deleteInstrutor(Integer id) {
-        gateway.deleteInstrutor(id);
+    public void excluirInstrutor(Integer id) {
+        gateway.excluirInstrutor(id);
     }
 }
