@@ -12,4 +12,6 @@ public interface AlunoGateway {
 
     Usuario updateUsuario(Integer id, Usuario usuario);
 
+    usuario e pajh
+
 }
